@@ -1,0 +1,17 @@
+#first{
+	background-color: blue;
+}
+/* mouse over link */
+
+
+#second{font-size: 24px;
+margin:100px;}
+
+a:link {
+    color: #FF0000;
+}
+/* mouse over link */
+a:hover {
+    color: #FF00FF;
+
+    

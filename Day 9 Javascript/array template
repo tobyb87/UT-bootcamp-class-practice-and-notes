@@ -1,0 +1,16 @@
+<script type="text/javascript">
+	
+function sunArray (listOfNumbers){
+		var total = 0;
+			for(vari=0; i< listOfNumbers.lenth; i++){
+			}
+
+			{total +=listOfNumbers[i];
+
+			}
+
+			return total;
+
+}
+
+</script>

@@ -1,0 +1,33 @@
+<html>
+<div id="console-log">
+<script>
+var i, infiniteloop;
+for (i=0; i<1; infiniteloop++) //infiniteloop allows loop to continue if user is infinitely retarded
+{
+    var userChoice = prompt("Rock Paper Scissors 123 go.")
+    if (userChoice === "rock") {i=1;} //escapes loop
+        else if (userChoice === "paper") {i=1;} //escapes loop
+        else if (userChoice === "scissors") {i=1;} //escapes loop
+        else {alert("Try again, stupid.");} //alerts, loops back to start
+}
+
+console.log("You chose " + userChoice + "!"); //announces userChoice
+
+//generate a random computer choice, assign a string to replace it
+var computerChoice = Math.random(); //random function. generates a number between 0 and 1
+if (computerChoice <= .33) { computerChoice = "rock"; }
+    else if (computerChoice <= .66) { computerChoice = "paper"; }
+    else { computerChoice = "scissors"; }
+
+console.log("Computer chose " + computerChoice + "!"); //announces computerChoice
+
+var victory = "You win! A master strategist is you." //preset victory announcement
+if (userChoice === computerChoice) { console.log("Tie game!"); }
+    else if (userChoice === "rock" && computerChoice === "scissors") { victory }
+    else if (userChoice === "paper" && computerChoice === "rock") { victory }
+    else if (userChoice === "scissors" && computerChoice === "paper") { victory }
+    else {console.log("You have suffered a devastating loss.");}
+    
+</script>
+
+</html>

@@ -1,0 +1,28 @@
+
+
+<script type="text/javascript">
+	
+function sumArray (listOfNumbers){
+		var total = 0;
+			for(vari=0; i< listOfNumbers.lenth; i++){
+			}
+
+			{total +=listOfNumbers[i];
+
+			}
+
+			return total;
+
+}
+
+var luckynumbers =[3, 7, 31, 14, 41];
+
+var total = (luckynumbers);
+
+console.log(sumArray(total);
+
+
+
+
+
+</script>'

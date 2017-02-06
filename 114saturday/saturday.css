@@ -1,0 +1,19 @@
+
+
+
+div {  
+  position: fixed;
+  height: 100px;
+  width: 200px;
+  color: #000;
+  background-color: #fff;
+  border-style: dashed;
+  border-color: #000;
+  
+}
+
+h1 {
+  color:#000;
+position: fixed;
+float: right;
+}
